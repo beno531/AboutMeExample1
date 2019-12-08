@@ -20,14 +20,19 @@
     <div class="uk-card-media-left uk-cover-container" uk-height-viewport>
         <img src="images/model.jpg" alt="" uk-cover>
     </div>
-    <div class="uk-inline" style="min-height: 100vh;">
+    <div class="uk-inline" style="min-height: 100vh; padding: 30px;">
         <div class="uk-card-body">
+            <div class="uk-hidden@s">
+                    <h3 class="uk-card-title">About Me</h3>
+                    <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                    <button class="uk-button uk-button-secondary">Contact Me</button>
+            </div>
 
                 
                
         </div>
 
-        <div class="uk-position-center uk-overlay uk-overlay-default uk-width-1-1" style="max-width: 70%;">
+        <div class="uk-position-center uk-visible@s" style="max-width: 70%;">
 
                 <h3 class="uk-card-title">About Me</h3>
                 <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -35,7 +40,7 @@
                 
         </div>
 
-        <div class="uk-position-bottom-center uk-overlay uk-overlay-default uk-width-1-1" style="max-width: 70%;">
+        <div class="uk-position-bottom-center uk-position" style="max-width: 70%;">
 
                
                 <p style="font-size: 13px;">© by Benito Ernst</p>
@@ -49,28 +54,35 @@
 
 
                     <div class="uk-position-top">
-                        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                        <nav class="uk-navbar-container uk-navbar-transparent uk-visible@s" uk-navbar>
+
+                            
+                                
                             <div class="uk-navbar-left">
                                 <ul class="uk-navbar-nav">
-                                    <li class="uk-active"><a href="#">Active</a></li>
-                                    <li><a href="#">Item</a></li>
-                                    <li>
-                                        <a href="#">Parent</a>
-                                        <div class="uk-navbar-dropdown">
-                                            <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                <li class="uk-active"><a href="#">Active</a></li>
-                                                <li><a href="#">Item</a></li>
-                                                <li class="uk-nav-header">Header</li>
-                                                <li><a href="#">Item</a></li>
-                                                <li><a href="#">Item</a></li>
-                                                <li class="uk-nav-divider"></li>
-                                                <li><a href="#">Item</a></li>
-                                            </ul>
-                                        </div>
+                                    <li class="uk-active uk-dark">
+                                        <a href="#" class="uk-text-bold" style="font-size:40px;">Amelia Brown</a>
                                     </li>
                                 </ul>
                             </div>
+
+                            
                         </nav>
+
+                        <nav class="uk-navbar-container uk-navbar-transparent uk-hidden@s" uk-navbar>
+
+                            
+                                
+                                <div class="uk-navbar-center">
+                                    <ul class="uk-navbar-nav">
+                                        <li class="uk-active uk-dark">
+                                            <a href="#" class="uk-text-bold" style="font-size:35px;">Amelia Brown</a>
+                                        </li>
+                                    </ul>
+                                </div>
+    
+                                
+                            </nav>
                     </div>
                 </div>
 
